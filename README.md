@@ -2,7 +2,8 @@
 ## Synopsis
 As the name suggests, this code guesses an area of region that might be the number plate of a car. The accuarcy of the code relies a bit on the lighting in the input image. <br/>
 The detection is two fold. First, the code detects the region of image in which the car is present. This bit is achieved using pretrained network and code based on [YOLOv3](https://pjreddie.com/darknet/yolo/) network. A lot of my code also draws inspiration from [this amazing blog](https://medium.com/@ravidesetty/number-plate-detection-on-indian-car-vehicles-using-yolov2-8c99e1a259f5). <br/>
-Then, the code attempts to guess the region of image where the number plate may be present. I have expanded on the idea I read about and explored in [this repository](https://github.com/shanmathik/Indian-License-Plate-Recognition-). <br/>
+Then, the code attempts to guess the region of image where the number plate may be present. I have expanded on the idea I read about and explored in [this repository](https://github.com/shanmathik/Indian-License-Plate-Recognition-). <br/><br/>
+P.S. The pretrained weights for YOLOv3 is too big to upload, so I am provideing the relevant link [here](https://pjreddie.com/media/files/yolov3-openimages.weights)
 
 ## How to Run the code?
 **Step 1**: Save all the files from this repository in the same directory on your device, along with the image you want to test<br/>
