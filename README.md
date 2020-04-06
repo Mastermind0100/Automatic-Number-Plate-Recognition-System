@@ -1,5 +1,5 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-# Number Plate Guesser
+# Automatic Number Plate Recognition (ANPR) System
 ## Synopsis
 As the name suggests, this code guesses an area of region that might be the number plate of a car. The accuarcy of the code relies a bit on the lighting in the input image. <br/>
 The detection is two fold. First, the code detects the region of image in which the car is present. This bit is achieved using pretrained network and code based on [YOLOv3](https://pjreddie.com/darknet/yolo/) network. A lot of my code also draws inspiration from [this amazing blog](https://medium.com/@ravidesetty/number-plate-detection-on-indian-car-vehicles-using-yolov2-8c99e1a259f5). <br/>
