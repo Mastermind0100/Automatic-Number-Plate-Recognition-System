@@ -15,7 +15,7 @@ Save the image you want to use for detection in the same directory as testimage.
 <br/>
 **Step 2**: Open cmd in the same directory (or open cmd and go to the directory where all the files are saved)<br/>
 **Step 3**: Type the following command:
-```python
+```bash
 python new_yolo.py --image testimage.jpg --config yolov3.cfg --weights yolov3.weights --classes yolov3.txt
 ```
 Note, the testimage.jpg is to be replaced by the image you want to test<br/>
